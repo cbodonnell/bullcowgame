@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		443508891E634BE400A6B517 /* FBullCowGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FBullCowGame.cpp; path = ../FBullCowGame.cpp; sourceTree = "<group>"; };
+		4435088A1E634BE400A6B517 /* FBullCowGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = FBullCowGame.hpp; path = ../FBullCowGame.hpp; sourceTree = "<group>"; };
+		4435088B1E634BE400A6B517 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		443508811E634BC700A6B517 = {
+			isa = PBXGroup;
+			children = (
+				443508891E634BE400A6B517 /* FBullCowGame.cpp */,
+				4435088A1E634BE400A6B517 /* FBullCowGame.hpp */,
+				4435088B1E634BE400A6B517 /* main.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		443508821E634BC700A6B517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = 443508851E634BC700A6B517 /* Build configuration list for PBXProject "BullCowGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 443508811E634BC700A6B517;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		443508861E634BC700A6B517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		443508871E634BC700A6B517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		443508851E634BC700A6B517 /* Build configuration list for PBXProject "BullCowGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443508861E634BC700A6B517 /* Debug */,
+				443508871E634BC700A6B517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443508821E634BC700A6B517 /* Project object */;
+}

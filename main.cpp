@@ -7,7 +7,9 @@
 //
 
 /*
-    This acts as the view in the MVC pattern and is responsible for all user interaction. For game logic, see the FBullCowGame class.
+ This is a word game where the user tries to guess a hidden word.   
+ 
+ This acts as the view in the MVC pattern and is responsible for all user interaction. For game logic, see the FBullCowGame class.
  */
 
 

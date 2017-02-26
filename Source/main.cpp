@@ -8,7 +8,7 @@
 
 /*
  BullCowGame
- This is a word game where the user tries to guess a hidden word.
+ This is a word game where the user tries to guess a hidden word. This will be used in the Escape the Room game.
  
  This acts as the view in the MVC pattern and is responsible for all user interaction. For game logic, see the FBullCowGame class.
  */

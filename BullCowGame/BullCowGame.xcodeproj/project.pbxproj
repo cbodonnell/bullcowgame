@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4453F60A1E6364EF00DF4058 /* FBullCowGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4453F6071E6364EF00DF4058 /* FBullCowGame.cpp */; };
-		4453F60B1E6364EF00DF4058 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4453F6091E6364EF00DF4058 /* main.cpp */; };
+		4453F6241E636B3400DF4058 /* FBullCowGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4453F6211E636B3400DF4058 /* FBullCowGame.cpp */; };
+		4453F6251E636B3400DF4058 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4453F6231E636B3400DF4058 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4453F5FD1E6364D500DF4058 /* CopyFiles */ = {
+		4453F6131E636AEC00DF4058 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4453F5FF1E6364D500DF4058 /* BullCowGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BullCowGame; sourceTree = BUILT_PRODUCTS_DIR; };
-		4453F6071E6364EF00DF4058 /* FBullCowGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBullCowGame.cpp; path = ../../Source/FBullCowGame.cpp; sourceTree = "<group>"; };
-		4453F6081E6364EF00DF4058 /* FBullCowGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FBullCowGame.hpp; path = ../../Source/FBullCowGame.hpp; sourceTree = "<group>"; };
-		4453F6091E6364EF00DF4058 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../Source/main.cpp; sourceTree = "<group>"; };
+		4453F6151E636AEC00DF4058 /* BullCowGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BullCowGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		4453F6211E636B3400DF4058 /* FBullCowGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBullCowGame.cpp; path = ../Source/FBullCowGame.cpp; sourceTree = "<group>"; };
+		4453F6221E636B3400DF4058 /* FBullCowGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FBullCowGame.hpp; path = ../Source/FBullCowGame.hpp; sourceTree = "<group>"; };
+		4453F6231E636B3400DF4058 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../Source/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4453F5FC1E6364D500DF4058 /* Frameworks */ = {
+		4453F6121E636AEC00DF4058 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,42 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		443508971E634DF300A6B517 = {
+		4453F60C1E636AEC00DF4058 = {
 			isa = PBXGroup;
 			children = (
-				4453F6011E6364D500DF4058 /* BullCowGame */,
-				4453F6001E6364D500DF4058 /* Products */,
+				4453F6201E636B1F00DF4058 /* Source */,
+				4453F6161E636AEC00DF4058 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4453F6001E6364D500DF4058 /* Products */ = {
+		4453F6161E636AEC00DF4058 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4453F5FF1E6364D500DF4058 /* BullCowGame */,
+				4453F6151E636AEC00DF4058 /* BullCowGame */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4453F6011E6364D500DF4058 /* BullCowGame */ = {
+		4453F6201E636B1F00DF4058 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				4453F6071E6364EF00DF4058 /* FBullCowGame.cpp */,
-				4453F6081E6364EF00DF4058 /* FBullCowGame.hpp */,
-				4453F6091E6364EF00DF4058 /* main.cpp */,
+				4453F6211E636B3400DF4058 /* FBullCowGame.cpp */,
+				4453F6221E636B3400DF4058 /* FBullCowGame.hpp */,
+				4453F6231E636B3400DF4058 /* main.cpp */,
 			);
-			path = BullCowGame;
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4453F5FE1E6364D500DF4058 /* BullCowGame */ = {
+		4453F6141E636AEC00DF4058 /* BullCowGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4453F6061E6364D500DF4058 /* Build configuration list for PBXNativeTarget "BullCowGame" */;
+			buildConfigurationList = 4453F61C1E636AEC00DF4058 /* Build configuration list for PBXNativeTarget "BullCowGame" */;
 			buildPhases = (
-				4453F5FB1E6364D500DF4058 /* Sources */,
-				4453F5FC1E6364D500DF4058 /* Frameworks */,
-				4453F5FD1E6364D500DF4058 /* CopyFiles */,
+				4453F6111E636AEC00DF4058 /* Sources */,
+				4453F6121E636AEC00DF4058 /* Frameworks */,
+				4453F6131E636AEC00DF4058 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -84,67 +84,56 @@
 			);
 			name = BullCowGame;
 			productName = BullCowGame;
-			productReference = 4453F5FF1E6364D500DF4058 /* BullCowGame */;
+			productReference = 4453F6151E636AEC00DF4058 /* BullCowGame */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		443508981E634DF300A6B517 /* Project object */ = {
+		4453F60D1E636AEC00DF4058 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Craig O'Donnell";
 				TargetAttributes = {
-					4453F5FE1E6364D500DF4058 = {
+					4453F6141E636AEC00DF4058 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PK2V4MVZS9;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4435089B1E634DF300A6B517 /* Build configuration list for PBXProject "BullCowGame" */;
+			buildConfigurationList = 4453F6101E636AEC00DF4058 /* Build configuration list for PBXProject "BullCowGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 443508971E634DF300A6B517;
-			productRefGroup = 4453F6001E6364D500DF4058 /* Products */;
+			mainGroup = 4453F60C1E636AEC00DF4058;
+			productRefGroup = 4453F6161E636AEC00DF4058 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4453F5FE1E6364D500DF4058 /* BullCowGame */,
+				4453F6141E636AEC00DF4058 /* BullCowGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4453F5FB1E6364D500DF4058 /* Sources */ = {
+		4453F6111E636AEC00DF4058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4453F60B1E6364EF00DF4058 /* main.cpp in Sources */,
-				4453F60A1E6364EF00DF4058 /* FBullCowGame.cpp in Sources */,
+				4453F6251E636B3400DF4058 /* main.cpp in Sources */,
+				4453F6241E636B3400DF4058 /* FBullCowGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4435089C1E634DF300A6B517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		4435089D1E634DF300A6B517 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		4453F6041E6364D500DF4058 /* Debug */ = {
+		4453F61A1E636AEC00DF4058 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -168,7 +157,6 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = PK2V4MVZS9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -188,12 +176,11 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		4453F6051E6364D500DF4058 /* Release */ = {
+		4453F61B1E636AEC00DF4058 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +204,6 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = PK2V4MVZS9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -230,32 +216,47 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4453F61D1E636AEC00DF4058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PK2V4MVZS9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4453F61E1E636AEC00DF4058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PK2V4MVZS9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4435089B1E634DF300A6B517 /* Build configuration list for PBXProject "BullCowGame" */ = {
+		4453F6101E636AEC00DF4058 /* Build configuration list for PBXProject "BullCowGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4435089C1E634DF300A6B517 /* Debug */,
-				4435089D1E634DF300A6B517 /* Release */,
+				4453F61A1E636AEC00DF4058 /* Debug */,
+				4453F61B1E636AEC00DF4058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4453F6061E6364D500DF4058 /* Build configuration list for PBXNativeTarget "BullCowGame" */ = {
+		4453F61C1E636AEC00DF4058 /* Build configuration list for PBXNativeTarget "BullCowGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4453F6041E6364D500DF4058 /* Debug */,
-				4453F6051E6364D500DF4058 /* Release */,
+				4453F61D1E636AEC00DF4058 /* Debug */,
+				4453F61E1E636AEC00DF4058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 443508981E634DF300A6B517 /* Project object */;
+	rootObject = 4453F60D1E636AEC00DF4058 /* Project object */;
 }

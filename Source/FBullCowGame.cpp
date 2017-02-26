@@ -41,7 +41,7 @@ void FBullCowGame::reset()
 // -- GETTERS (ALSO METHODS) -- //
 
 int32 FBullCowGame::getMaxTries() const
-{
+{   // TODO: Revise this based on difficulty and number of tries
     TMap<int32, int32> WordLengthToMaxTries {{3,5}, {4,7}, {5,10}, {6,15}, {7,23}}; // This initializes the map
     return WordLengthToMaxTries[myHiddenWord.length()];
 }

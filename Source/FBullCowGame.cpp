@@ -1,6 +1,6 @@
 //
 //  FBullCowGame.cpp
-//  Class_Proj_2
+//  BullCowGame
 //
 //  Created by Craig O'Donnell on 1/16/17.
 //  Copyright © 2017 Craig O'Donnell. All rights reserved.
